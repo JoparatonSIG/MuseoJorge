@@ -1,0 +1,28 @@
+{
+  "name": "museojorge",
+  "version": "0.0.1",
+  "description": "Sistema de Museo para el Museo Jesuitico de San Ignacio Guazu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoparatonSIG/MuseoJorge.git"
+  },
+  "keywords": [
+    "Sistema",
+    "Museo",
+    "express",
+    "nodejs",
+    "Museo",
+    "Jorge",
+    "kokemon"
+  ],
+  "author": "Jorge Vidal Morinigo Ferloni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoparatonSIG/MuseoJorge/issues"
+  },
+  "homepage": "https://github.com/JoparatonSIG/MuseoJorge#readme"
+}
