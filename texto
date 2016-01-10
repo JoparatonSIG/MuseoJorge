@@ -13,3 +13,17 @@ CREATE TABLE `identificacion` (
   `Origen` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`IdIdentificacion`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1702 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `relevamiento` (
+  `FechaRelev` datetime DEFAULT NULL,
+  `FechaCatalog` datetime DEFAULT NULL,
+  `FechaRevision` datetime DEFAULT NULL,
+  `IdIdentificacion` int(10) NOT NULL DEFAULT '0',
+  `QienRelevo` varchar(50) DEFAULT NULL,
+  `QuienCatalogo` varchar(50) DEFAULT NULL,
+  `QuienReviso` varchar(50) DEFAULT NULL,
+  `observaciones` text,
+  PRIMARY KEY (`IdIdentificacion`),
+  UNIQUE KEY `IdentificacionRelevamiento` (`IdIdentificacion`),
+  UNIQUE KEY `IdIdentificacion` (`IdIdentificacion`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
