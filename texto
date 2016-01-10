@@ -1,0 +1,15 @@
+CREATE TABLE `identificacion` (
+  `IdIdentificacion` int(10) NOT NULL AUTO_INCREMENT,
+  `Numero` varchar(3) DEFAULT NULL,
+  `Codigo` varchar(50) DEFAULT NULL,
+  `CodigoAnterior1` varchar(50) DEFAULT NULL,
+  `CodigoAnterior2` varchar(50) DEFAULT NULL,
+  `Denominacion` varchar(50) DEFAULT NULL,
+  `Especialidad` varchar(50) DEFAULT NULL,
+  `Epoca` varchar(50) DEFAULT NULL,
+  `Autor` varchar(50) DEFAULT NULL,
+  `FuncionOriginal` varchar(50) DEFAULT NULL COMMENT 'uso actual',
+  `TecnicaMaterial` varchar(120) DEFAULT NULL,
+  `Origen` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`IdIdentificacion`)
+) ENGINE=InnoDB AUTO_INCREMENT=1702 DEFAULT CHARSET=utf8;
